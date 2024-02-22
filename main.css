@@ -306,39 +306,39 @@ rotate: -90deg;
 -------------------CARD-------------------------
 ------------------------------------------------**/
 
-.card {
+.contenedor__card{
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  width: 360px;
-  border: solid 1px white;
-  margin: 0 auto; 
-  justify-content: last baseline;
-  
-
-
+  gap: 6rem;
+  padding: 90px 0px;
+  padding-bottom: 90px;
+  justify-content: center;
 }
 
-.card__title {
+.card{
+  display: flex;
+  width: 300px;
+  border: solid 1px rgb(197, 197, 197);
+  padding: 22px;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center ;
+  border-radius: 50px;
+  box-shadow: 0 0px 10px 0px #d9d9d9;
+}
+
+.card__title{
   text-align: center;
-  font-size: 2rem;
-  padding: 10px;
-  background-color: #f2f2f2; 
-  border-radius: 5px; 
+  font-size: 3rem;
+  padding: 10px 0;
 }
 
-.card__text {
-  font-size: 1.2rem; 
-  margin-top: 10px; 
+.card__text{
+  text-align: center;
 }
 
-.card--border {
-  border: 1px solid #ccc;
-  padding: 15px;
+.card--border{
+  border: solid 2px var(--color-primary);
 }
-
-
-
 
 
 
